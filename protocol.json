@@ -1,0 +1,254 @@
+{
+  "dataset": {
+    "id": "VietFinTabGroup/VietFinTab",
+    "revision": "6e41a8941ef78fb53c750c622151ce1f2c24c688",
+    "source": "https://huggingface.co/datasets/VietFinTabGroup/VietFinTab"
+  },
+  "vietfintab": {
+    "manifest": "manifests/vietfintab.json"
+  },
+  "primary": {
+    "name": "crop_tableformer_rapidocr_v6",
+    "configuration_id": "docling_rapidocr_v6",
+    "rapidocr": {
+      "package_version": "3.9.1",
+      "backend": "onnxruntime",
+      "language": "vi",
+      "model_family": "PP-OCRv6",
+      "detector": {
+        "configuration": "multi_PP-OCRv6_det_small",
+        "filename": "PP-OCRv6_det_small.onnx"
+      },
+      "classifier": {
+        "configuration": "ch_ppocr_mobile_v2.0_cls_mobile",
+        "filename": "ch_ppocr_mobile_v2.0_cls_mobile.onnx",
+        "active": true
+      },
+      "recognizer": {
+        "configuration": "multi_PP-OCRv6_rec_small",
+        "filename": "PP-OCRv6_rec_small.onnx"
+      },
+      "dictionary": {
+        "filename": null,
+        "mode": "embedded in the PP-OCRv6 ONNX recognizer"
+      }
+    },
+    "docling": {
+      "package_version": "2.123.0",
+      "core_version": "2.92.0",
+      "ocr_backend": "rapidocr",
+      "ocr_language": [
+        "vi"
+      ],
+      "ocr_mode": "full_page",
+      "table_mode": "accurate",
+      "cell_matching": true,
+      "whole_crop_processing": true,
+      "tableformer": {
+        "model_repository": "docling-project/docling-models",
+        "revision": "v2.3.0",
+        "path": "model_artifacts/tableformer/accurate"
+      },
+      "layout": {
+        "model_repository": "docling-project/docling-layout-heron",
+        "revision": "8f39ad3c0b4c58e9c2d2c84a38465abf757272d8",
+        "engine": "transformer"
+      }
+    }
+  },
+  "experts": {
+    "hunyuanocr_1_5": {
+      "configuration_id": "hunyuanocr_1_5",
+      "checkpoint": {
+        "model_id": "tencent/HunyuanOCR",
+        "revision": "b7bf72439f11fa076c547edf8777aa85f8e0a027"
+      },
+      "backend": "native_transformers",
+      "model_class": "HunYuanVLForConditionalGeneration",
+      "processor_class": "AutoProcessor",
+      "prompt": "提取文档图片中正文的所有信息用markdown格式表示，其中页眉、页脚部分忽略，表格用html格式表达，文档中公式用latex格式表示，按照阅读顺序组织进行解析。",
+      "generation": {
+        "max_new_tokens": 8000,
+        "do_sample": false,
+        "skip_special_tokens": true
+      },
+      "loading": {
+        "device_map": "auto",
+        "torch_dtype_cuda": "bfloat16",
+        "required_device": "cuda",
+        "trust_remote_code": true,
+        "use_fast": false,
+        "quantized": false
+      }
+    },
+    "glm_ocr": {
+      "configuration_id": "glm_ocr",
+      "checkpoint": {
+        "model_id": "zai-org/GLM-OCR",
+        "revision": "ca5d8b3e287e52589e37c28385d9655ee4372f9d"
+      },
+      "backend": "native_transformers",
+      "model_class": "AutoModelForImageTextToText",
+      "processor_class": "AutoProcessor",
+      "prompt": "Table Recognition:",
+      "generation": {
+        "max_new_tokens": 4096,
+        "do_sample": false,
+        "skip_special_tokens": false
+      },
+      "loading": {
+        "device_map": "auto",
+        "torch_dtype": "auto",
+        "required_device": "cuda",
+        "quantized": false
+      }
+    }
+  },
+  "evaluation": {
+    "package": "grits-metric",
+    "version": "0.6.0",
+    "content_attachment_minimum_overlap": 0.5,
+    "table_metrics": [
+      "top",
+      "con",
+      "loc"
+    ],
+    "headline_metrics": [
+      "top",
+      "con"
+    ],
+    "top_reference": "source structure annotation",
+    "con_reference": "source structure with attached content records",
+    "loc_reference": "source structure annotation",
+    "standalone_failure_score": 0.0
+  },
+  "routing": {
+    "training_expert": "hunyuanocr_1_5",
+    "transfer_expert": "glm_ocr",
+    "target": "call_benefit_grits_con",
+    "expert_failure_target": 0.0,
+    "replacement_rule": "successful expert canonicalization replaces the whole primary table; expert failure retains primary",
+    "post_expert_quality_gate": false,
+    "models": {
+      "ridge_benefit": {
+        "family": "Ridge",
+        "preprocessing": {
+          "imputer": {
+            "class": "SimpleImputer",
+            "strategy": "median"
+          },
+          "scaler": "StandardScaler"
+        },
+        "estimator": "Ridge",
+        "grid": {
+          "alpha": [
+            0.1,
+            1.0,
+            10.0
+          ]
+        }
+      },
+      "hist_gradient_boosting_benefit": {
+        "family": "HistGradientBoostingRegressor",
+        "preprocessing": {
+          "imputer": {
+            "class": "SimpleImputer",
+            "strategy": "median"
+          }
+        },
+        "estimator": "HistGradientBoostingRegressor",
+        "grid": {
+          "max_depth": [
+            2,
+            3
+          ],
+          "learning_rate": [
+            0.05,
+            0.1
+          ],
+          "max_iter": [
+            100
+          ],
+          "l2_regularization": [
+            0.0,
+            1.0
+          ],
+          "early_stopping": [
+            false
+          ],
+          "random_state": [
+            1601
+          ]
+        }
+      }
+    },
+    "validation": {
+      "outer_folds": 5,
+      "inner_folds": 4,
+      "group": "issuer",
+      "sample_order": "sample ID ascending",
+      "selection_metric": "mean validation squared error",
+      "tie_break": "canonical JSON parameter representation ascending"
+    },
+    "budgets": {
+      "development": [
+        0,
+        60,
+        120,
+        180,
+        240,
+        360,
+        600
+      ],
+      "final": [
+        0,
+        30,
+        60,
+        90,
+        120,
+        180,
+        300
+      ],
+      "main": {
+        "development": 120,
+        "final": 60
+      }
+    },
+    "random": {
+      "seed": "cg-hybrid-ocr-task16-random-v1",
+      "repetitions": 2000,
+      "selection": "rank sample IDs by SHA256(seed + ':' + repetition + ':' + sample_id), then sample ID ascending, and take the budget"
+    },
+    "bootstrap": {
+      "seed": "cg-hybrid-ocr-task16-bootstrap-v1",
+      "replicates": 5000,
+      "interval": "paired percentile 95%"
+    },
+    "calibration": {
+      "active_features": [
+        "confidence_tail_risk",
+        "unmatched_ocr_ratio"
+      ],
+      "inactive_features": [
+        "empty_cell_ratio"
+      ],
+      "percentile_rule": "(count(population < x) + 0.5 * count(population == x)) / 50",
+      "combined_risk": "maximum active-feature percentile"
+    }
+  },
+  "features": [
+    "ocr_confidence_p10",
+    "ocr_confidence_mean",
+    "ocr_confidence_std",
+    "ocr_box_count",
+    "unmatched_ocr_ratio",
+    "predicted_row_count",
+    "predicted_column_count",
+    "predicted_cell_count",
+    "predicted_spanning_cell_count",
+    "empty_cell_ratio",
+    "numeric_looking_cell_ratio",
+    "image_aspect_ratio",
+    "cell_area_coefficient_of_variation"
+  ]
+}

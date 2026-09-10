@@ -1,0 +1,370 @@
+{
+  "dataset_id": "tinixai/ocr_annual_financials",
+  "revision": "efd2d198d0e0c9f467bbc7a4682cc27aeb4d290f",
+  "reports": [
+    {
+      "report_id": "FCN/2015/FCN_Baocaotaichinh_2015_Kiemtoan_Congtyme/FCN_Baocaotaichinh_2015_Kiemtoan_Congtyme",
+      "reporting_entity": "FCN",
+      "year": "2015",
+      "pdf_repository_path": "pdf_files/FCN/2015/FCN_Baocaotaichinh_2015_Kiemtoan_Congtyme.pdf",
+      "ocr_repository_path": "ocr_results/FCN/2015/FCN_Baocaotaichinh_2015_Kiemtoan_Congtyme/FCN_Baocaotaichinh_2015_Kiemtoan_Congtyme_extracted.txt"
+    },
+    {
+      "report_id": "PLX/2016/PLX_Baocaotaichinh_2016_Kiemtoan_Hopnhat/PLX_Baocaotaichinh_2016_Kiemtoan_Hopnhat",
+      "reporting_entity": "PLX",
+      "year": "2016",
+      "pdf_repository_path": "pdf_files/PLX/2016/PLX_Baocaotaichinh_2016_Kiemtoan_Hopnhat.pdf",
+      "ocr_repository_path": "ocr_results/PLX/2016/PLX_Baocaotaichinh_2016_Kiemtoan_Hopnhat/PLX_Baocaotaichinh_2016_Kiemtoan_Hopnhat_extracted.txt"
+    },
+    {
+      "report_id": "IDV/2025/1_idv_2025_11_13_69a6337_vi_baocaotaichinhriengdakiemtoan_2025_1/1_idv_2025_11_13_69a6337_vi_baocaotaichinhriengdakiemtoan_2025_1",
+      "reporting_entity": "IDV",
+      "year": "2025",
+      "pdf_repository_path": "pdf_files/IDV/2025/1_idv_2025_11_13_69a6337_vi_baocaotaichinhriengdakiemtoan_2025_1.pdf",
+      "ocr_repository_path": "ocr_results/IDV/2025/1_idv_2025_11_13_69a6337_vi_baocaotaichinhriengdakiemtoan_2025_1/1_idv_2025_11_13_69a6337_vi_baocaotaichinhriengdakiemtoan_2025_1_extracted.txt"
+    },
+    {
+      "report_id": "FubonVN/2024/FubonVN_Baocaotaichinh_2024_Kiemtoan/FubonVN_Baocaotaichinh_2024_Kiemtoan",
+      "reporting_entity": "FubonVN",
+      "year": "2024",
+      "pdf_repository_path": "pdf_files/FubonVN/2024/FubonVN_Baocaotaichinh_2024_Kiemtoan.pdf",
+      "ocr_repository_path": "ocr_results/FubonVN/2024/FubonVN_Baocaotaichinh_2024_Kiemtoan/FubonVN_Baocaotaichinh_2024_Kiemtoan_extracted.txt"
+    },
+    {
+      "report_id": "DNL/2024/DNL_Baocaotaichinh_2024_Kiemtoan/DNL_Baocaotaichinh_2024_Kiemtoan",
+      "reporting_entity": "DNL",
+      "year": "2024",
+      "pdf_repository_path": "pdf_files/DNL/2024/DNL_Baocaotaichinh_2024_Kiemtoan.pdf",
+      "ocr_repository_path": "ocr_results/DNL/2024/DNL_Baocaotaichinh_2024_Kiemtoan/DNL_Baocaotaichinh_2024_Kiemtoan_extracted.txt"
+    },
+    {
+      "report_id": "MSN/2019/MSN_Baocaotaichinh_2019_Kiemtoan_Congtyme/MSN_Baocaotaichinh_2019_Kiemtoan_Congtyme",
+      "reporting_entity": "MSN",
+      "year": "2019",
+      "pdf_repository_path": "pdf_files/MSN/2019/MSN_Baocaotaichinh_2019_Kiemtoan_Congtyme.pdf",
+      "ocr_repository_path": "ocr_results/MSN/2019/MSN_Baocaotaichinh_2019_Kiemtoan_Congtyme/MSN_Baocaotaichinh_2019_Kiemtoan_Congtyme_extracted.txt"
+    },
+    {
+      "report_id": "PAI/2015/PAI_Baocaotaichinh_2015_Kiemtoan/PAI_Baocaotaichinh_2015_Kiemtoan",
+      "reporting_entity": "PAI",
+      "year": "2015",
+      "pdf_repository_path": "pdf_files/PAI/2015/PAI_Baocaotaichinh_2015_Kiemtoan.pdf",
+      "ocr_repository_path": "ocr_results/PAI/2015/PAI_Baocaotaichinh_2015_Kiemtoan/PAI_Baocaotaichinh_2015_Kiemtoan_extracted.txt"
+    },
+    {
+      "report_id": "VFC/2017/3.VFC_2018.4.3_a3cbf1f_Bao_cao_tai_chinh_hop_nhat_sau_kiem_toan_nam_2017__Phan_1/3.VFC_2018.4.3_a3cbf1f_Bao_cao_tai_chinh_hop_nhat_sau_kiem_toan_nam_2017__Phan_1",
+      "reporting_entity": "VFC",
+      "year": "2017",
+      "pdf_repository_path": "pdf_files/VFC/2017/3.VFC_2018.4.3_a3cbf1f_Bao_cao_tai_chinh_hop_nhat_sau_kiem_toan_nam_2017__Phan_1.pdf",
+      "ocr_repository_path": "ocr_results/VFC/2017/3.VFC_2018.4.3_a3cbf1f_Bao_cao_tai_chinh_hop_nhat_sau_kiem_toan_nam_2017__Phan_1/3.VFC_2018.4.3_a3cbf1f_Bao_cao_tai_chinh_hop_nhat_sau_kiem_toan_nam_2017__Phan_1_extracted.txt"
+    },
+    {
+      "report_id": "PCC/2017/PCC_Baocaotaichinh_2017_Kiemtoan_Hopnhat/PCC_Baocaotaichinh_2017_Kiemtoan_Hopnhat",
+      "reporting_entity": "PCC",
+      "year": "2017",
+      "pdf_repository_path": "pdf_files/PCC/2017/PCC_Baocaotaichinh_2017_Kiemtoan_Hopnhat.pdf",
+      "ocr_repository_path": "ocr_results/PCC/2017/PCC_Baocaotaichinh_2017_Kiemtoan_Hopnhat/PCC_Baocaotaichinh_2017_Kiemtoan_Hopnhat_extracted.txt"
+    },
+    {
+      "report_id": "QPH/2024/1_qph_2025_3_31_609c1ce_vi_baocaotaichinhhopnhat_2024/1_qph_2025_3_31_609c1ce_vi_baocaotaichinhhopnhat_2024",
+      "reporting_entity": "QPH",
+      "year": "2024",
+      "pdf_repository_path": "pdf_files/QPH/2024/1_qph_2025_3_31_609c1ce_vi_baocaotaichinhhopnhat_2024.pdf",
+      "ocr_repository_path": "ocr_results/QPH/2024/1_qph_2025_3_31_609c1ce_vi_baocaotaichinhhopnhat_2024/1_qph_2025_3_31_609c1ce_vi_baocaotaichinhhopnhat_2024_extracted.txt"
+    },
+    {
+      "report_id": "VDS/2021/VDS_Baocaotaichinh_2021_Kiemtoan_Congtyme/VDS_Baocaotaichinh_2021_Kiemtoan_Congtyme",
+      "reporting_entity": "VDS",
+      "year": "2021",
+      "pdf_repository_path": "pdf_files/VDS/2021/VDS_Baocaotaichinh_2021_Kiemtoan_Congtyme.pdf",
+      "ocr_repository_path": "ocr_results/VDS/2021/VDS_Baocaotaichinh_2021_Kiemtoan_Congtyme/VDS_Baocaotaichinh_2021_Kiemtoan_Congtyme_extracted.txt"
+    },
+    {
+      "report_id": "BDW/2017/BDW_Baocaotaichinh_2017_Kiemtoan/BDW_Baocaotaichinh_2017_Kiemtoan",
+      "reporting_entity": "BDW",
+      "year": "2017",
+      "pdf_repository_path": "pdf_files/BDW/2017/BDW_Baocaotaichinh_2017_Kiemtoan.pdf",
+      "ocr_repository_path": "ocr_results/BDW/2017/BDW_Baocaotaichinh_2017_Kiemtoan/BDW_Baocaotaichinh_2017_Kiemtoan_extracted.txt"
+    },
+    {
+      "report_id": "HDA/2023/HDA_Baocaotaichinh_2023_Kiemtoan_Congtyme/HDA_Baocaotaichinh_2023_Kiemtoan_Congtyme",
+      "reporting_entity": "HDA",
+      "year": "2023",
+      "pdf_repository_path": "pdf_files/HDA/2023/HDA_Baocaotaichinh_2023_Kiemtoan_Congtyme.pdf",
+      "ocr_repository_path": "ocr_results/HDA/2023/HDA_Baocaotaichinh_2023_Kiemtoan_Congtyme/HDA_Baocaotaichinh_2023_Kiemtoan_Congtyme_extracted.txt"
+    },
+    {
+      "report_id": "NQN/2022/2_nqn_2023_3_24_76003a4_20230324_cbtt_bao_cao_tai_chinh_2022_da_kiem_toan/2_nqn_2023_3_24_76003a4_20230324_cbtt_bao_cao_tai_chinh_2022_da_kiem_toan",
+      "reporting_entity": "NQN",
+      "year": "2022",
+      "pdf_repository_path": "pdf_files/NQN/2022/2_nqn_2023_3_24_76003a4_20230324_cbtt_bao_cao_tai_chinh_2022_da_kiem_toan.pdf",
+      "ocr_repository_path": "ocr_results/NQN/2022/2_nqn_2023_3_24_76003a4_20230324_cbtt_bao_cao_tai_chinh_2022_da_kiem_toan/2_nqn_2023_3_24_76003a4_20230324_cbtt_bao_cao_tai_chinh_2022_da_kiem_toan_extracted.txt"
+    },
+    {
+      "report_id": "LNC/2025/LNC_Baocaotaichinh_2025_Kiemtoan/LNC_Baocaotaichinh_2025_Kiemtoan",
+      "reporting_entity": "LNC",
+      "year": "2025",
+      "pdf_repository_path": "pdf_files/LNC/2025/LNC_Baocaotaichinh_2025_Kiemtoan.pdf",
+      "ocr_repository_path": "ocr_results/LNC/2025/LNC_Baocaotaichinh_2025_Kiemtoan/LNC_Baocaotaichinh_2025_Kiemtoan_extracted.txt"
+    },
+    {
+      "report_id": "LHC/2017/LHC_Baocaotaichinh_2017_Kiemtoan_Congtyme/LHC_Baocaotaichinh_2017_Kiemtoan_Congtyme",
+      "reporting_entity": "LHC",
+      "year": "2017",
+      "pdf_repository_path": "pdf_files/LHC/2017/LHC_Baocaotaichinh_2017_Kiemtoan_Congtyme.pdf",
+      "ocr_repository_path": "ocr_results/LHC/2017/LHC_Baocaotaichinh_2017_Kiemtoan_Congtyme/LHC_Baocaotaichinh_2017_Kiemtoan_Congtyme_extracted.txt"
+    },
+    {
+      "report_id": "CVS/2018/CVS_Baocaotaichinh_2018_Kiemtoan/CVS_Baocaotaichinh_2018_Kiemtoan",
+      "reporting_entity": "CVS",
+      "year": "2018",
+      "pdf_repository_path": "pdf_files/CVS/2018/CVS_Baocaotaichinh_2018_Kiemtoan.pdf",
+      "ocr_repository_path": "ocr_results/CVS/2018/CVS_Baocaotaichinh_2018_Kiemtoan/CVS_Baocaotaichinh_2018_Kiemtoan_extracted.txt"
+    },
+    {
+      "report_id": "VISECO/2018/VISECO_Baocaotaichinh_2018_Kiemtoan/VISECO_Baocaotaichinh_2018_Kiemtoan",
+      "reporting_entity": "VISECO",
+      "year": "2018",
+      "pdf_repository_path": "pdf_files/VISECO/2018/VISECO_Baocaotaichinh_2018_Kiemtoan.pdf",
+      "ocr_repository_path": "ocr_results/VISECO/2018/VISECO_Baocaotaichinh_2018_Kiemtoan/VISECO_Baocaotaichinh_2018_Kiemtoan_extracted.txt"
+    },
+    {
+      "report_id": "ACB/2015/ACB_Baocaotaichinh_2015_Kiemtoan_Hopnhat/ACB_Baocaotaichinh_2015_Kiemtoan_Hopnhat",
+      "reporting_entity": "ACB",
+      "year": "2015",
+      "pdf_repository_path": "pdf_files/ACB/2015/ACB_Baocaotaichinh_2015_Kiemtoan_Hopnhat.pdf",
+      "ocr_repository_path": "ocr_results/ACB/2015/ACB_Baocaotaichinh_2015_Kiemtoan_Hopnhat/ACB_Baocaotaichinh_2015_Kiemtoan_Hopnhat_extracted.txt"
+    },
+    {
+      "report_id": "DPM/2020/DPM_Baocaotaichinh_2020_Kiemtoan_Congtyme/DPM_Baocaotaichinh_2020_Kiemtoan_Congtyme",
+      "reporting_entity": "DPM",
+      "year": "2020",
+      "pdf_repository_path": "pdf_files/DPM/2020/DPM_Baocaotaichinh_2020_Kiemtoan_Congtyme.pdf",
+      "ocr_repository_path": "ocr_results/DPM/2020/DPM_Baocaotaichinh_2020_Kiemtoan_Congtyme/DPM_Baocaotaichinh_2020_Kiemtoan_Congtyme_extracted.txt"
+    },
+    {
+      "report_id": "BLF/2015/BLF_Baocaotaichinh_2015_Kiemtoan/BLF_Baocaotaichinh_2015_Kiemtoan",
+      "reporting_entity": "BLF",
+      "year": "2015",
+      "pdf_repository_path": "pdf_files/BLF/2015/BLF_Baocaotaichinh_2015_Kiemtoan.pdf",
+      "ocr_repository_path": "ocr_results/BLF/2015/BLF_Baocaotaichinh_2015_Kiemtoan/BLF_Baocaotaichinh_2015_Kiemtoan_extracted.txt"
+    },
+    {
+      "report_id": "HDP/2019/HDP_Baocaotaichinh_2019_Kiemtoan/HDP_Baocaotaichinh_2019_Kiemtoan",
+      "reporting_entity": "HDP",
+      "year": "2019",
+      "pdf_repository_path": "pdf_files/HDP/2019/HDP_Baocaotaichinh_2019_Kiemtoan.pdf",
+      "ocr_repository_path": "ocr_results/HDP/2019/HDP_Baocaotaichinh_2019_Kiemtoan/HDP_Baocaotaichinh_2019_Kiemtoan_extracted.txt"
+    },
+    {
+      "report_id": "IJC/2020/IJC_Baocaotaichinh_2020_Kiemtoan_Congtyme/IJC_Baocaotaichinh_2020_Kiemtoan_Congtyme",
+      "reporting_entity": "IJC",
+      "year": "2020",
+      "pdf_repository_path": "pdf_files/IJC/2020/IJC_Baocaotaichinh_2020_Kiemtoan_Congtyme.pdf",
+      "ocr_repository_path": "ocr_results/IJC/2020/IJC_Baocaotaichinh_2020_Kiemtoan_Congtyme/IJC_Baocaotaichinh_2020_Kiemtoan_Congtyme_extracted.txt"
+    },
+    {
+      "report_id": "GCF/2022/GCF_Baocaotaichinh_2022_Kiemtoan_Hopnhat/GCF_Baocaotaichinh_2022_Kiemtoan_Hopnhat",
+      "reporting_entity": "GCF",
+      "year": "2022",
+      "pdf_repository_path": "pdf_files/GCF/2022/GCF_Baocaotaichinh_2022_Kiemtoan_Hopnhat.pdf",
+      "ocr_repository_path": "ocr_results/GCF/2022/GCF_Baocaotaichinh_2022_Kiemtoan_Hopnhat/GCF_Baocaotaichinh_2022_Kiemtoan_Hopnhat_extracted.txt"
+    },
+    {
+      "report_id": "S55/2022/2_s55_2023_3_22_5105abf_bctc_2022_hop_nhatcks/2_s55_2023_3_22_5105abf_bctc_2022_hop_nhatcks",
+      "reporting_entity": "S55",
+      "year": "2022",
+      "pdf_repository_path": "pdf_files/S55/2022/2_s55_2023_3_22_5105abf_bctc_2022_hop_nhatcks.pdf",
+      "ocr_repository_path": "ocr_results/S55/2022/2_s55_2023_3_22_5105abf_bctc_2022_hop_nhatcks/2_s55_2023_3_22_5105abf_bctc_2022_hop_nhatcks_extracted.txt"
+    },
+    {
+      "report_id": "BMG/2021/BMG_Baocaotaichinh_2021_Kiemtoan/BMG_Baocaotaichinh_2021_Kiemtoan",
+      "reporting_entity": "BMG",
+      "year": "2021",
+      "pdf_repository_path": "pdf_files/BMG/2021/BMG_Baocaotaichinh_2021_Kiemtoan.pdf",
+      "ocr_repository_path": "ocr_results/BMG/2021/BMG_Baocaotaichinh_2021_Kiemtoan/BMG_Baocaotaichinh_2021_Kiemtoan_extracted.txt"
+    },
+    {
+      "report_id": "PHP/2020/2.PHP_2021.3.26_c67a5d3_BCTC_rieng_2020_da_kiem_toansigned/2.PHP_2021.3.26_c67a5d3_BCTC_rieng_2020_da_kiem_toansigned",
+      "reporting_entity": "PHP",
+      "year": "2020",
+      "pdf_repository_path": "pdf_files/PHP/2020/2.PHP_2021.3.26_c67a5d3_BCTC_rieng_2020_da_kiem_toansigned.pdf",
+      "ocr_repository_path": "ocr_results/PHP/2020/2.PHP_2021.3.26_c67a5d3_BCTC_rieng_2020_da_kiem_toansigned/2.PHP_2021.3.26_c67a5d3_BCTC_rieng_2020_da_kiem_toansigned_extracted.txt"
+    },
+    {
+      "report_id": "HPP/2019/HPP_Baocaotaichinh_2019_Kiemtoan_Congtyme/HPP_Baocaotaichinh_2019_Kiemtoan_Congtyme",
+      "reporting_entity": "HPP",
+      "year": "2019",
+      "pdf_repository_path": "pdf_files/HPP/2019/HPP_Baocaotaichinh_2019_Kiemtoan_Congtyme.pdf",
+      "ocr_repository_path": "ocr_results/HPP/2019/HPP_Baocaotaichinh_2019_Kiemtoan_Congtyme/HPP_Baocaotaichinh_2019_Kiemtoan_Congtyme_extracted.txt"
+    },
+    {
+      "report_id": "CFM/2022/CFM_Baocaotaichinh_2022_Kiemtoan/CFM_Baocaotaichinh_2022_Kiemtoan",
+      "reporting_entity": "CFM",
+      "year": "2022",
+      "pdf_repository_path": "pdf_files/CFM/2022/CFM_Baocaotaichinh_2022_Kiemtoan.pdf",
+      "ocr_repository_path": "ocr_results/CFM/2022/CFM_Baocaotaichinh_2022_Kiemtoan/CFM_Baocaotaichinh_2022_Kiemtoan_extracted.txt"
+    },
+    {
+      "report_id": "GIL/2024/GIL_Baocaotaichinh_2024_Kiemtoan_Hopnhat/GIL_Baocaotaichinh_2024_Kiemtoan_Hopnhat",
+      "reporting_entity": "GIL",
+      "year": "2024",
+      "pdf_repository_path": "pdf_files/GIL/2024/GIL_Baocaotaichinh_2024_Kiemtoan_Hopnhat.pdf",
+      "ocr_repository_path": "ocr_results/GIL/2024/GIL_Baocaotaichinh_2024_Kiemtoan_Hopnhat/GIL_Baocaotaichinh_2024_Kiemtoan_Hopnhat_extracted.txt"
+    },
+    {
+      "report_id": "MCF/2019/MCF_Baocaotaichinh_2019_Kiemtoan/MCF_Baocaotaichinh_2019_Kiemtoan",
+      "reporting_entity": "MCF",
+      "year": "2019",
+      "pdf_repository_path": "pdf_files/MCF/2019/MCF_Baocaotaichinh_2019_Kiemtoan.pdf",
+      "ocr_repository_path": "ocr_results/MCF/2019/MCF_Baocaotaichinh_2019_Kiemtoan/MCF_Baocaotaichinh_2019_Kiemtoan_extracted.txt"
+    },
+    {
+      "report_id": "UDL/2023/UDL_Baocaotaichinh_2023_Kiemtoan/UDL_Baocaotaichinh_2023_Kiemtoan",
+      "reporting_entity": "UDL",
+      "year": "2023",
+      "pdf_repository_path": "pdf_files/UDL/2023/UDL_Baocaotaichinh_2023_Kiemtoan.pdf",
+      "ocr_repository_path": "ocr_results/UDL/2023/UDL_Baocaotaichinh_2023_Kiemtoan/UDL_Baocaotaichinh_2023_Kiemtoan_extracted.txt"
+    },
+    {
+      "report_id": "PCC/2024/PCC_Baocaotaichinh_2024_Kiemtoan_Hopnhat/PCC_Baocaotaichinh_2024_Kiemtoan_Hopnhat",
+      "reporting_entity": "PCC",
+      "year": "2024",
+      "pdf_repository_path": "pdf_files/PCC/2024/PCC_Baocaotaichinh_2024_Kiemtoan_Hopnhat.pdf",
+      "ocr_repository_path": "ocr_results/PCC/2024/PCC_Baocaotaichinh_2024_Kiemtoan_Hopnhat/PCC_Baocaotaichinh_2024_Kiemtoan_Hopnhat_extracted.txt"
+    },
+    {
+      "report_id": "FIR/2021/FIR_Baocaotaichinh_2021_Kiemtoan_Congtyme/FIR_Baocaotaichinh_2021_Kiemtoan_Congtyme",
+      "reporting_entity": "FIR",
+      "year": "2021",
+      "pdf_repository_path": "pdf_files/FIR/2021/FIR_Baocaotaichinh_2021_Kiemtoan_Congtyme.pdf",
+      "ocr_repository_path": "ocr_results/FIR/2021/FIR_Baocaotaichinh_2021_Kiemtoan_Congtyme/FIR_Baocaotaichinh_2021_Kiemtoan_Congtyme_extracted.txt"
+    },
+    {
+      "report_id": "VIF/2015/VIF_Baocaotaichinh_2015_Kiemtoan_Congtyme/VIF_Baocaotaichinh_2015_Kiemtoan_Congtyme",
+      "reporting_entity": "VIF",
+      "year": "2015",
+      "pdf_repository_path": "pdf_files/VIF/2015/VIF_Baocaotaichinh_2015_Kiemtoan_Congtyme.pdf",
+      "ocr_repository_path": "ocr_results/VIF/2015/VIF_Baocaotaichinh_2015_Kiemtoan_Congtyme/VIF_Baocaotaichinh_2015_Kiemtoan_Congtyme_extracted.txt"
+    },
+    {
+      "report_id": "RIC/2023/6_ric_2025_3_3_e052964_giay_uy_quyen/6_ric_2025_3_3_e052964_giay_uy_quyen",
+      "reporting_entity": "RIC",
+      "year": "2023",
+      "pdf_repository_path": "pdf_files/RIC/2023/6_ric_2025_3_3_e052964_giay_uy_quyen.pdf",
+      "ocr_repository_path": "ocr_results/RIC/2023/6_ric_2025_3_3_e052964_giay_uy_quyen/6_ric_2025_3_3_e052964_giay_uy_quyen_extracted.txt"
+    },
+    {
+      "report_id": "HNG/2023/HNG_Baocaotaichinh_2023_Kiemtoan_Congtyme/HNG_Baocaotaichinh_2023_Kiemtoan_Congtyme",
+      "reporting_entity": "HNG",
+      "year": "2023",
+      "pdf_repository_path": "pdf_files/HNG/2023/HNG_Baocaotaichinh_2023_Kiemtoan_Congtyme.pdf",
+      "ocr_repository_path": "ocr_results/HNG/2023/HNG_Baocaotaichinh_2023_Kiemtoan_Congtyme/HNG_Baocaotaichinh_2023_Kiemtoan_Congtyme_extracted.txt"
+    },
+    {
+      "report_id": "TOT/2024/TOT_Baocaotaichinh_2024_Kiemtoan/TOT_Baocaotaichinh_2024_Kiemtoan",
+      "reporting_entity": "TOT",
+      "year": "2024",
+      "pdf_repository_path": "pdf_files/TOT/2024/TOT_Baocaotaichinh_2024_Kiemtoan.pdf",
+      "ocr_repository_path": "ocr_results/TOT/2024/TOT_Baocaotaichinh_2024_Kiemtoan/TOT_Baocaotaichinh_2024_Kiemtoan_extracted.txt"
+    },
+    {
+      "report_id": "CTW/2020/CTW_Baocaotaichinh_2020_Kiemtoan_Hopnhat/CTW_Baocaotaichinh_2020_Kiemtoan_Hopnhat",
+      "reporting_entity": "CTW",
+      "year": "2020",
+      "pdf_repository_path": "pdf_files/CTW/2020/CTW_Baocaotaichinh_2020_Kiemtoan_Hopnhat.pdf",
+      "ocr_repository_path": "ocr_results/CTW/2020/CTW_Baocaotaichinh_2020_Kiemtoan_Hopnhat/CTW_Baocaotaichinh_2020_Kiemtoan_Hopnhat_extracted.txt"
+    },
+    {
+      "report_id": "DWC/2019/DWC_Baocaotaichinh_2019_Kiemtoan/DWC_Baocaotaichinh_2019_Kiemtoan",
+      "reporting_entity": "DWC",
+      "year": "2019",
+      "pdf_repository_path": "pdf_files/DWC/2019/DWC_Baocaotaichinh_2019_Kiemtoan.pdf",
+      "ocr_repository_path": "ocr_results/DWC/2019/DWC_Baocaotaichinh_2019_Kiemtoan/DWC_Baocaotaichinh_2019_Kiemtoan_extracted.txt"
+    },
+    {
+      "report_id": "PXL/2016/PXL_2017.3.6_ff5a1ae_Bao_cao_Tai_chinh_da_Kiem_toan_nam_2016/PXL_2017.3.6_ff5a1ae_Bao_cao_Tai_chinh_da_Kiem_toan_nam_2016",
+      "reporting_entity": "PXL",
+      "year": "2016",
+      "pdf_repository_path": "pdf_files/PXL/2016/PXL_2017.3.6_ff5a1ae_Bao_cao_Tai_chinh_da_Kiem_toan_nam_2016.pdf",
+      "ocr_repository_path": "ocr_results/PXL/2016/PXL_2017.3.6_ff5a1ae_Bao_cao_Tai_chinh_da_Kiem_toan_nam_2016/PXL_2017.3.6_ff5a1ae_Bao_cao_Tai_chinh_da_Kiem_toan_nam_2016_extracted.txt"
+    },
+    {
+      "report_id": "FCM/2022/FCM_Baocaotaichinh_2022_Kiemtoan_Congtyme/FCM_Baocaotaichinh_2022_Kiemtoan_Congtyme",
+      "reporting_entity": "FCM",
+      "year": "2022",
+      "pdf_repository_path": "pdf_files/FCM/2022/FCM_Baocaotaichinh_2022_Kiemtoan_Congtyme.pdf",
+      "ocr_repository_path": "ocr_results/FCM/2022/FCM_Baocaotaichinh_2022_Kiemtoan_Congtyme/FCM_Baocaotaichinh_2022_Kiemtoan_Congtyme_extracted.txt"
+    },
+    {
+      "report_id": "VIN/2020/2.VIN_2021.3.15_94118f6_BCTC_HOP_NHAT_NAM_2020__SIGNED/2.VIN_2021.3.15_94118f6_BCTC_HOP_NHAT_NAM_2020__SIGNED",
+      "reporting_entity": "VIN",
+      "year": "2020",
+      "pdf_repository_path": "pdf_files/VIN/2020/2.VIN_2021.3.15_94118f6_BCTC_HOP_NHAT_NAM_2020__SIGNED.pdf",
+      "ocr_repository_path": "ocr_results/VIN/2020/2.VIN_2021.3.15_94118f6_BCTC_HOP_NHAT_NAM_2020__SIGNED/2.VIN_2021.3.15_94118f6_BCTC_HOP_NHAT_NAM_2020__SIGNED_extracted.txt"
+    },
+    {
+      "report_id": "SAB/2024/SAB_Baocaotaichinh_2024_Kiemtoan_Hopnhat/SAB_Baocaotaichinh_2024_Kiemtoan_Hopnhat",
+      "reporting_entity": "SAB",
+      "year": "2024",
+      "pdf_repository_path": "pdf_files/SAB/2024/SAB_Baocaotaichinh_2024_Kiemtoan_Hopnhat.pdf",
+      "ocr_repository_path": "ocr_results/SAB/2024/SAB_Baocaotaichinh_2024_Kiemtoan_Hopnhat/SAB_Baocaotaichinh_2024_Kiemtoan_Hopnhat_extracted.txt"
+    },
+    {
+      "report_id": "HSG/2017/HSG_Baocaotaichinh_2017_Kiemtoan_Congtyme/HSG_Baocaotaichinh_2017_Kiemtoan_Congtyme",
+      "reporting_entity": "HSG",
+      "year": "2017",
+      "pdf_repository_path": "pdf_files/HSG/2017/HSG_Baocaotaichinh_2017_Kiemtoan_Congtyme.pdf",
+      "ocr_repository_path": "ocr_results/HSG/2017/HSG_Baocaotaichinh_2017_Kiemtoan_Congtyme/HSG_Baocaotaichinh_2017_Kiemtoan_Congtyme_extracted.txt"
+    },
+    {
+      "report_id": "HNG/2016/HNG_Baocaotaichinh_2016_Kiemtoan_Congtyme/HNG_Baocaotaichinh_2016_Kiemtoan_Congtyme",
+      "reporting_entity": "HNG",
+      "year": "2016",
+      "pdf_repository_path": "pdf_files/HNG/2016/HNG_Baocaotaichinh_2016_Kiemtoan_Congtyme.pdf",
+      "ocr_repository_path": "ocr_results/HNG/2016/HNG_Baocaotaichinh_2016_Kiemtoan_Congtyme/HNG_Baocaotaichinh_2016_Kiemtoan_Congtyme_extracted.txt"
+    },
+    {
+      "report_id": "VNC/2020/VNC_Baocaotaichinh_2020_Kiemtoan_Congtyme/VNC_Baocaotaichinh_2020_Kiemtoan_Congtyme",
+      "reporting_entity": "VNC",
+      "year": "2020",
+      "pdf_repository_path": "pdf_files/VNC/2020/VNC_Baocaotaichinh_2020_Kiemtoan_Congtyme.pdf",
+      "ocr_repository_path": "ocr_results/VNC/2020/VNC_Baocaotaichinh_2020_Kiemtoan_Congtyme/VNC_Baocaotaichinh_2020_Kiemtoan_Congtyme_extracted.txt"
+    },
+    {
+      "report_id": "APH/2025/APH_Baocaotaichinh_2025_Kiemtoan_Hopnhat/APH_Baocaotaichinh_2025_Kiemtoan_Hopnhat",
+      "reporting_entity": "APH",
+      "year": "2025",
+      "pdf_repository_path": "pdf_files/APH/2025/APH_Baocaotaichinh_2025_Kiemtoan_Hopnhat.pdf",
+      "ocr_repository_path": "ocr_results/APH/2025/APH_Baocaotaichinh_2025_Kiemtoan_Hopnhat/APH_Baocaotaichinh_2025_Kiemtoan_Hopnhat_extracted.txt"
+    },
+    {
+      "report_id": "VPR/2021/2_vpr_2022_3_23_f513fd9_cbtt_bctc_kiem_toan_nam_2021_so_28_2022cbttvpr_ngay_22032022da_ky/2_vpr_2022_3_23_f513fd9_cbtt_bctc_kiem_toan_nam_2021_so_28_2022cbttvpr_ngay_22032022da_ky",
+      "reporting_entity": "VPR",
+      "year": "2021",
+      "pdf_repository_path": "pdf_files/VPR/2021/2_vpr_2022_3_23_f513fd9_cbtt_bctc_kiem_toan_nam_2021_so_28_2022cbttvpr_ngay_22032022da_ky.pdf",
+      "ocr_repository_path": "ocr_results/VPR/2021/2_vpr_2022_3_23_f513fd9_cbtt_bctc_kiem_toan_nam_2021_so_28_2022cbttvpr_ngay_22032022da_ky/2_vpr_2022_3_23_f513fd9_cbtt_bctc_kiem_toan_nam_2021_so_28_2022cbttvpr_ngay_22032022da_ky_extracted.txt"
+    },
+    {
+      "report_id": "PHR/2020/PHR_Baocaotaichinh_2020_Kiemtoan_Congtyme/PHR_Baocaotaichinh_2020_Kiemtoan_Congtyme",
+      "reporting_entity": "PHR",
+      "year": "2020",
+      "pdf_repository_path": "pdf_files/PHR/2020/PHR_Baocaotaichinh_2020_Kiemtoan_Congtyme.pdf",
+      "ocr_repository_path": "ocr_results/PHR/2020/PHR_Baocaotaichinh_2020_Kiemtoan_Congtyme/PHR_Baocaotaichinh_2020_Kiemtoan_Congtyme_extracted.txt"
+    },
+    {
+      "report_id": "GeneraliVN/2024/GeneraliVN_Baocaotaichinh_2024_Kiemtoan/GeneraliVN_Baocaotaichinh_2024_Kiemtoan",
+      "reporting_entity": "GeneraliVN",
+      "year": "2024",
+      "pdf_repository_path": "pdf_files/GeneraliVN/2024/GeneraliVN_Baocaotaichinh_2024_Kiemtoan.pdf",
+      "ocr_repository_path": "ocr_results/GeneraliVN/2024/GeneraliVN_Baocaotaichinh_2024_Kiemtoan/GeneraliVN_Baocaotaichinh_2024_Kiemtoan_extracted.txt"
+    },
+    {
+      "report_id": "SDY/2021/2_sdy_2022_4_3_b77fb5b_bctc_rieng_sdy__2021/2_sdy_2022_4_3_b77fb5b_bctc_rieng_sdy__2021",
+      "reporting_entity": "SDY",
+      "year": "2021",
+      "pdf_repository_path": "pdf_files/SDY/2021/2_sdy_2022_4_3_b77fb5b_bctc_rieng_sdy__2021.pdf",
+      "ocr_repository_path": "ocr_results/SDY/2021/2_sdy_2022_4_3_b77fb5b_bctc_rieng_sdy__2021/2_sdy_2022_4_3_b77fb5b_bctc_rieng_sdy__2021_extracted.txt"
+    }
+  ]
+}

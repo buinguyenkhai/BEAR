@@ -1,0 +1,4939 @@
+{
+  "dataset_id": "VietFinTabGroup/VietFinTab",
+  "revision": "6e41a8941ef78fb53c750c622151ce1f2c24c688",
+  "splits": {
+    "development": [
+      {
+        "sample_id": "EVF_CN_2023_34",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_CN_2023_54",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_CN_2023_58",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_CN_2023_72",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_CN_2024_21",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_CN_2024_52",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_Q1_2023_2",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q1_2023_3",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q1_2024_26",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q1_2024_41",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q1_2025_19",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q1_2025_36",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q1_2025_37",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q1_2025_55",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q2_2023_54",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_Q2_2023_58",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_Q2_2023_66",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q2_2023_70",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q2_2024_10",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q2_2024_46",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_Q2_2024_48",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_Q2_2024_51",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_Q2_2024_58",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_Q2_2024_70",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q2_2025_1",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_Q2_2025_27",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_Q2_2025_37",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_Q2_2025_52",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_Q3_2023_17",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q3_2023_25",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q3_2023_7",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q3_2024_43",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q4_2023_2",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q4_2023_5",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q4_2023_52",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q4_2023_68",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q4_2023_72",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q4_2024_14",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q4_2024_43",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q4_2024_46",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q4_2024_47",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q4_2024_72",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q4_2024_8",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "FPT_CN_2023_16",
+        "issuer": "FPT",
+        "spanning": false
+      },
+      {
+        "sample_id": "FPT_CN_2023_21",
+        "issuer": "FPT",
+        "spanning": false
+      },
+      {
+        "sample_id": "FPT_CN_2023_26",
+        "issuer": "FPT",
+        "spanning": false
+      },
+      {
+        "sample_id": "FPT_CN_2023_5",
+        "issuer": "FPT",
+        "spanning": true
+      },
+      {
+        "sample_id": "FPT_CN_2023_69",
+        "issuer": "FPT",
+        "spanning": true
+      },
+      {
+        "sample_id": "FPT_CN_2023_73",
+        "issuer": "FPT",
+        "spanning": true
+      },
+      {
+        "sample_id": "FPT_CN_2024_3",
+        "issuer": "FPT",
+        "spanning": false
+      },
+      {
+        "sample_id": "FPT_CN_2024_37",
+        "issuer": "FPT",
+        "spanning": true
+      },
+      {
+        "sample_id": "FPT_CN_2024_43",
+        "issuer": "FPT",
+        "spanning": true
+      },
+      {
+        "sample_id": "FPT_Q1_2023_8",
+        "issuer": "FPT",
+        "spanning": false
+      },
+      {
+        "sample_id": "FPT_Q1_2023_9",
+        "issuer": "FPT",
+        "spanning": true
+      },
+      {
+        "sample_id": "FPT_Q1_2024_16",
+        "issuer": "FPT",
+        "spanning": true
+      },
+      {
+        "sample_id": "FPT_Q1_2024_17",
+        "issuer": "FPT",
+        "spanning": false
+      },
+      {
+        "sample_id": "FPT_Q1_2024_18",
+        "issuer": "FPT",
+        "spanning": false
+      },
+      {
+        "sample_id": "FPT_Q1_2024_2",
+        "issuer": "FPT",
+        "spanning": false
+      },
+      {
+        "sample_id": "FPT_Q1_2024_21",
+        "issuer": "FPT",
+        "spanning": false
+      },
+      {
+        "sample_id": "FPT_Q1_2024_38",
+        "issuer": "FPT",
+        "spanning": true
+      },
+      {
+        "sample_id": "FPT_Q1_2024_42",
+        "issuer": "FPT",
+        "spanning": true
+      },
+      {
+        "sample_id": "FPT_Q1_2024_43",
+        "issuer": "FPT",
+        "spanning": true
+      },
+      {
+        "sample_id": "FPT_Q1_2025_12",
+        "issuer": "FPT",
+        "spanning": false
+      },
+      {
+        "sample_id": "FPT_Q1_2025_15",
+        "issuer": "FPT",
+        "spanning": true
+      },
+      {
+        "sample_id": "FPT_Q1_2025_36",
+        "issuer": "FPT",
+        "spanning": true
+      },
+      {
+        "sample_id": "FPT_Q1_2025_4",
+        "issuer": "FPT",
+        "spanning": false
+      },
+      {
+        "sample_id": "FPT_Q1_2025_48",
+        "issuer": "FPT",
+        "spanning": false
+      },
+      {
+        "sample_id": "FPT_Q1_2025_8",
+        "issuer": "FPT",
+        "spanning": false
+      },
+      {
+        "sample_id": "FPT_Q2_2023_3",
+        "issuer": "FPT",
+        "spanning": false
+      },
+      {
+        "sample_id": "FPT_Q2_2023_33",
+        "issuer": "FPT",
+        "spanning": true
+      },
+      {
+        "sample_id": "FPT_Q2_2023_49",
+        "issuer": "FPT",
+        "spanning": true
+      },
+      {
+        "sample_id": "FPT_Q2_2023_9",
+        "issuer": "FPT",
+        "spanning": false
+      },
+      {
+        "sample_id": "FPT_Q2_2024_51",
+        "issuer": "FPT",
+        "spanning": false
+      },
+      {
+        "sample_id": "FPT_Q2_2024_6",
+        "issuer": "FPT",
+        "spanning": true
+      },
+      {
+        "sample_id": "FPT_Q2_2024_66",
+        "issuer": "FPT",
+        "spanning": true
+      },
+      {
+        "sample_id": "FPT_Q2_2024_68",
+        "issuer": "FPT",
+        "spanning": false
+      },
+      {
+        "sample_id": "FPT_Q2_2025_1",
+        "issuer": "FPT",
+        "spanning": true
+      },
+      {
+        "sample_id": "FPT_Q2_2025_33",
+        "issuer": "FPT",
+        "spanning": false
+      },
+      {
+        "sample_id": "FPT_Q2_2025_64",
+        "issuer": "FPT",
+        "spanning": true
+      },
+      {
+        "sample_id": "FPT_Q2_2025_75",
+        "issuer": "FPT",
+        "spanning": false
+      },
+      {
+        "sample_id": "FPT_Q3_2023_17",
+        "issuer": "FPT",
+        "spanning": false
+      },
+      {
+        "sample_id": "FPT_Q3_2023_20",
+        "issuer": "FPT",
+        "spanning": true
+      },
+      {
+        "sample_id": "FPT_Q3_2023_50",
+        "issuer": "FPT",
+        "spanning": false
+      },
+      {
+        "sample_id": "FPT_Q4_2023_1",
+        "issuer": "FPT",
+        "spanning": false
+      },
+      {
+        "sample_id": "FPT_Q4_2024_32",
+        "issuer": "FPT",
+        "spanning": false
+      },
+      {
+        "sample_id": "FPT_Q4_2024_50",
+        "issuer": "FPT",
+        "spanning": false
+      },
+      {
+        "sample_id": "HAG_CN_2023_11",
+        "issuer": "HAG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HAG_CN_2023_13",
+        "issuer": "HAG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HAG_CN_2023_29",
+        "issuer": "HAG",
+        "spanning": true
+      },
+      {
+        "sample_id": "HAG_CN_2023_39",
+        "issuer": "HAG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HAG_CN_2024_43",
+        "issuer": "HAG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HAG_Q1_2023_19",
+        "issuer": "HAG",
+        "spanning": true
+      },
+      {
+        "sample_id": "HAG_Q1_2024_23",
+        "issuer": "HAG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HAG_Q2_2023_26",
+        "issuer": "HAG",
+        "spanning": true
+      },
+      {
+        "sample_id": "HAG_Q2_2023_29",
+        "issuer": "HAG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HAG_Q2_2024_12",
+        "issuer": "HAG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HAG_Q2_2024_14",
+        "issuer": "HAG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HAG_Q2_2025_23",
+        "issuer": "HAG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HAG_Q2_2025_27",
+        "issuer": "HAG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HAG_Q3_2023_26",
+        "issuer": "HAG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HAG_Q3_2024_23",
+        "issuer": "HAG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HAG_Q4_2023_13",
+        "issuer": "HAG",
+        "spanning": true
+      },
+      {
+        "sample_id": "HAG_Q4_2024_12",
+        "issuer": "HAG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HAG_Q4_2024_24",
+        "issuer": "HAG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_CN_2023_16",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_CN_2023_23",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_CN_2023_29",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_CN_2023_3",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_CN_2023_46",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_CN_2023_51",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_CN_2023_59",
+        "issuer": "HPG",
+        "spanning": true
+      },
+      {
+        "sample_id": "HPG_CN_2024_30",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_CN_2024_45",
+        "issuer": "HPG",
+        "spanning": true
+      },
+      {
+        "sample_id": "HPG_CN_2024_60",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_Q1_2024_16",
+        "issuer": "HPG",
+        "spanning": true
+      },
+      {
+        "sample_id": "HPG_Q2_2023_10",
+        "issuer": "HPG",
+        "spanning": true
+      },
+      {
+        "sample_id": "HPG_Q2_2023_18",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_Q2_2023_28",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_Q2_2023_50",
+        "issuer": "HPG",
+        "spanning": true
+      },
+      {
+        "sample_id": "HPG_Q2_2023_57",
+        "issuer": "HPG",
+        "spanning": true
+      },
+      {
+        "sample_id": "HPG_Q2_2024_1",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_Q2_2024_11",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_Q2_2024_22",
+        "issuer": "HPG",
+        "spanning": true
+      },
+      {
+        "sample_id": "HPG_Q2_2024_42",
+        "issuer": "HPG",
+        "spanning": true
+      },
+      {
+        "sample_id": "HPG_Q2_2024_48",
+        "issuer": "HPG",
+        "spanning": true
+      },
+      {
+        "sample_id": "HPG_Q2_2024_65",
+        "issuer": "HPG",
+        "spanning": true
+      },
+      {
+        "sample_id": "HPG_Q2_2025_14",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_Q2_2025_27",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_Q2_2025_28",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_Q2_2025_30",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_Q2_2025_46",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_Q2_2025_7",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_Q4_2023_9",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_CN_2023_15",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_CN_2023_56",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_CN_2023_67",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_CN_2024_1",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_CN_2024_22",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_CN_2024_36",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_CN_2024_43",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_CN_2024_79",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_CN_2024_83",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_CN_2024_87",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_CN_2024_93",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q1_2023_10",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q1_2023_14",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q1_2023_3",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q1_2023_44",
+        "issuer": "MB",
+        "spanning": true
+      },
+      {
+        "sample_id": "MB_Q1_2024_10",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q1_2024_23",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q1_2024_38",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q1_2024_48",
+        "issuer": "MB",
+        "spanning": true
+      },
+      {
+        "sample_id": "MB_Q1_2024_52",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q1_2024_57",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q1_2024_58",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q1_2024_62",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q1_2024_65",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q1_2025_15",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q1_2025_16",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q1_2025_24",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q1_2025_38",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q1_2025_40",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q2_2023_35",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q2_2023_38",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q2_2023_68",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q2_2023_7",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q2_2024_80",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q2_2024_82",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q2_2024_92",
+        "issuer": "MB",
+        "spanning": true
+      },
+      {
+        "sample_id": "MB_Q2_2025_5",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q3_2023_11",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q3_2023_31",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q3_2024_24",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q3_2024_33",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q3_2024_36",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q3_2024_40",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q4_2023_49",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q4_2023_51",
+        "issuer": "MB",
+        "spanning": true
+      },
+      {
+        "sample_id": "MB_Q4_2023_53",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q4_2023_57",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q4_2023_8",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q4_2024_46",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q4_2024_52",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q4_2024_63",
+        "issuer": "MB",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVD_CN_2023_125",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_CN_2023_144",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_CN_2023_25",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_CN_2023_41",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_CN_2023_60",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_CN_2023_66",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_CN_2023_92",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_CN_2023_98",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_CN_2024_105",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_CN_2024_18",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_CN_2024_45",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_CN_2024_80",
+        "issuer": "PVD",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVD_CN_2024_93",
+        "issuer": "PVD",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVD_CN_2024_94",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_CN_2024_96",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q1_2023_13",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q1_2023_25",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q1_2023_33",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q1_2023_66",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q1_2024_17",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q1_2024_24",
+        "issuer": "PVD",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVD_Q1_2024_34",
+        "issuer": "PVD",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVD_Q1_2024_40",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q1_2024_64",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q1_2024_69",
+        "issuer": "PVD",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVD_Q1_2025_15",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q1_2025_26",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q1_2025_50",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q1_2025_58",
+        "issuer": "PVD",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVD_Q1_2025_67",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q1_2025_69",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q1_2025_72",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2023_103",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2023_112",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2023_126",
+        "issuer": "PVD",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVD_Q2_2023_43",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2023_6",
+        "issuer": "PVD",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVD_Q2_2023_61",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2023_84",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2024_101",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2024_118",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2024_125",
+        "issuer": "PVD",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVD_Q2_2024_22",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2024_33",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2024_34",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2024_37",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2024_38",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2024_55",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2024_70",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2024_9",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2025_115",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2025_29",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2025_32",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2025_46",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2025_49",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2025_62",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q3_2023_66",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q3_2023_67",
+        "issuer": "PVD",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVD_Q3_2024_26",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q3_2024_29",
+        "issuer": "PVD",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVD_Q3_2024_3",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q3_2024_30",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q3_2024_62",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q3_2024_71",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q3_2025_16",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q3_2025_38",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q3_2025_63",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q3_2025_69",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q3_2025_77",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q4_2023_18",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q4_2023_44",
+        "issuer": "PVD",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVD_Q4_2023_47",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q4_2023_52",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q4_2024_16",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q4_2024_38",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q4_2024_50",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q4_2024_71",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q4_2024_76",
+        "issuer": "PVD",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVS_CN_2023_25",
+        "issuer": "PVS",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVS_CN_2023_35",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_CN_2023_61",
+        "issuer": "PVS",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVS_CN_2024_105",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_CN_2024_109",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_CN_2024_23",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_CN_2024_58",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_CN_2024_63",
+        "issuer": "PVS",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVS_CN_2024_68",
+        "issuer": "PVS",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVS_CN_2024_79",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q1_2023_17",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q1_2023_23",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q1_2023_48",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q1_2024_31",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q1_2024_7",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q1_2025_36",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q1_2025_46",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q1_2025_52",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q1_2025_80",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q2_2023_26",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q2_2023_68",
+        "issuer": "PVS",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVS_Q2_2024_15",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q2_2024_63",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q2_2025_104",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q2_2025_109",
+        "issuer": "PVS",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVS_Q2_2025_142",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q2_2025_26",
+        "issuer": "PVS",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVS_Q2_2025_39",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q2_2025_4",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q3_2023_2",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q3_2023_20",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q3_2024_42",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q3_2024_47",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q3_2025_12",
+        "issuer": "PVS",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVS_Q3_2025_13",
+        "issuer": "PVS",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVS_Q3_2025_16",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q3_2025_28",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q3_2025_31",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q3_2025_36",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q3_2025_37",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q3_2025_69",
+        "issuer": "PVS",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVS_Q3_2025_7",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q3_2025_88",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q4_2023_1",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q4_2023_11",
+        "issuer": "PVS",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVS_Q4_2023_16",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q4_2023_17",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q4_2023_28",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q4_2024_25",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q4_2024_3",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q4_2024_33",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q4_2024_4",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q4_2024_47",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q4_2024_57",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q4_2024_6",
+        "issuer": "PVS",
+        "spanning": true
+      },
+      {
+        "sample_id": "SSI_CN_2023_13",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_CN_2023_38",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_CN_2023_4",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_CN_2023_40",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_CN_2024_18",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_CN_2024_25",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_CN_2024_41",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q1_2023_30",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q1_2023_33",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q1_2023_36",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q1_2023_45",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q1_2023_47",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q1_2023_50",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q1_2023_53",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q1_2023_8",
+        "issuer": "SSI",
+        "spanning": true
+      },
+      {
+        "sample_id": "SSI_Q1_2024_20",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q1_2024_3",
+        "issuer": "SSI",
+        "spanning": true
+      },
+      {
+        "sample_id": "SSI_Q1_2024_49",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q1_2025_37",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q2_2023_17",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q2_2023_4",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q2_2023_47",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q2_2023_62",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q2_2024_23",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q2_2024_40",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q2_2024_45",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q2_2024_49",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q2_2024_53",
+        "issuer": "SSI",
+        "spanning": true
+      },
+      {
+        "sample_id": "SSI_Q2_2024_59",
+        "issuer": "SSI",
+        "spanning": true
+      },
+      {
+        "sample_id": "SSI_Q2_2025_10",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q2_2025_100",
+        "issuer": "SSI",
+        "spanning": true
+      },
+      {
+        "sample_id": "SSI_Q2_2025_115",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q2_2025_136",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q2_2025_14",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q2_2025_55",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q2_2025_57",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q2_2025_89",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q2_2025_9",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q2_2025_91",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q3_2023_50",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q3_2023_56",
+        "issuer": "SSI",
+        "spanning": true
+      },
+      {
+        "sample_id": "SSI_Q3_2024_19",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q3_2024_26",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q3_2024_34",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q3_2024_35",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q3_2024_39",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q3_2024_40",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q3_2024_47",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q3_2025_33",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q3_2025_39",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q3_2025_46",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q3_2025_51",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q3_2025_54",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q4_2023_24",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q4_2023_28",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q4_2023_43",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q4_2023_57",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q4_2024_10",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q4_2024_21",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q4_2024_22",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q4_2024_51",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_CN_2023_29",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_CN_2023_32",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_CN_2023_52",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_CN_2023_87",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_CN_2023_96",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_CN_2024_100",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_CN_2024_23",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_CN_2024_56",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_CN_2024_69",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q1_2023_11",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q1_2023_15",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q1_2023_21",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q1_2023_45",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q1_2025_20",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q1_2025_53",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q2_2023_17",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q2_2023_25",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q2_2023_34",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q2_2023_39",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q2_2023_47",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q2_2023_58",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q2_2023_65",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q2_2023_83",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q2_2024_18",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q2_2024_45",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q2_2024_78",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q2_2024_93",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q2_2025_12",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q2_2025_4",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q3_2024_18",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q4_2023_40",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q4_2024_21",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q4_2024_26",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q4_2024_32",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q4_2024_47",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q4_2024_52",
+        "issuer": "TPB",
+        "spanning": true
+      },
+      {
+        "sample_id": "VIN_CN_2023_21",
+        "issuer": "VIN",
+        "spanning": true
+      },
+      {
+        "sample_id": "VIN_CN_2023_56",
+        "issuer": "VIN",
+        "spanning": true
+      },
+      {
+        "sample_id": "VIN_CN_2023_6",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_CN_2024_27",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_CN_2024_32",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_CN_2024_36",
+        "issuer": "VIN",
+        "spanning": true
+      },
+      {
+        "sample_id": "VIN_CN_2024_5",
+        "issuer": "VIN",
+        "spanning": true
+      },
+      {
+        "sample_id": "VIN_CN_2024_54",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_CN_2024_80",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_CN_2024_84",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_CN_2024_88",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q1_2023_1",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q1_2023_2",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q1_2023_33",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q1_2023_7",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q1_2023_8",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q1_2024_41",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q1_2025_20",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q1_2025_41",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q1_2025_48",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q2_2023_30",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q2_2023_4",
+        "issuer": "VIN",
+        "spanning": true
+      },
+      {
+        "sample_id": "VIN_Q2_2023_40",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q2_2024_23",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q2_2024_27",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q2_2024_43",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q2_2024_64",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q2_2024_66",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q2_2024_74",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q2_2024_79",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q2_2025_27",
+        "issuer": "VIN",
+        "spanning": true
+      },
+      {
+        "sample_id": "VIN_Q2_2025_3",
+        "issuer": "VIN",
+        "spanning": true
+      },
+      {
+        "sample_id": "VIN_Q2_2025_51",
+        "issuer": "VIN",
+        "spanning": true
+      },
+      {
+        "sample_id": "VIN_Q2_2025_62",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q2_2025_72",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q2_2025_74",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q2_2025_82",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q3_2023_13",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q3_2023_21",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q3_2024_22",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q3_2024_33",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q3_2024_35",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q3_2024_43",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q4_2024_10",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q4_2024_12",
+        "issuer": "VIN",
+        "spanning": true
+      },
+      {
+        "sample_id": "VIN_Q4_2024_47",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_CN_2023_19",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_CN_2023_3",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_CN_2023_39",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_CN_2023_8",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_CN_2024_1",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_CN_2024_16",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_CN_2024_22",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_CN_2024_25",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_CN_2024_35",
+        "issuer": "VJC",
+        "spanning": true
+      },
+      {
+        "sample_id": "VJC_CN_2024_42",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_Q1_2023_17",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_Q1_2023_4",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_Q1_2023_42",
+        "issuer": "VJC",
+        "spanning": true
+      },
+      {
+        "sample_id": "VJC_Q1_2023_52",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_Q1_2024_46",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_Q1_2025_27",
+        "issuer": "VJC",
+        "spanning": true
+      },
+      {
+        "sample_id": "VJC_Q1_2025_3",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_Q1_2025_30",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_Q2_2023_25",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_Q2_2024_32",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_Q2_2024_45",
+        "issuer": "VJC",
+        "spanning": true
+      },
+      {
+        "sample_id": "VJC_Q2_2024_48",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_Q2_2024_62",
+        "issuer": "VJC",
+        "spanning": true
+      },
+      {
+        "sample_id": "VJC_Q2_2024_77",
+        "issuer": "VJC",
+        "spanning": true
+      },
+      {
+        "sample_id": "VJC_Q2_2024_8",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_Q2_2025_22",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_Q2_2025_34",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_Q2_2025_54",
+        "issuer": "VJC",
+        "spanning": true
+      },
+      {
+        "sample_id": "VJC_Q3_2023_13",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_Q3_2023_45",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_Q3_2023_7",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_Q3_2024_14",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_Q4_2023_20",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_Q4_2023_25",
+        "issuer": "VJC",
+        "spanning": true
+      },
+      {
+        "sample_id": "VJC_Q4_2024_48",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_CN_2023_14",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_CN_2023_18",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_CN_2024_16",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_CN_2024_31",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_CN_2024_47",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_CN_2024_5",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_CN_2024_50",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_CN_2024_51",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_CN_2024_56",
+        "issuer": "VNM",
+        "spanning": true
+      },
+      {
+        "sample_id": "VNM_CN_2024_9",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q1_2023_31",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q1_2023_33",
+        "issuer": "VNM",
+        "spanning": true
+      },
+      {
+        "sample_id": "VNM_Q1_2023_7",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q1_2024_18",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q1_2024_23",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q1_2024_36",
+        "issuer": "VNM",
+        "spanning": true
+      },
+      {
+        "sample_id": "VNM_Q1_2024_39",
+        "issuer": "VNM",
+        "spanning": true
+      },
+      {
+        "sample_id": "VNM_Q1_2025_2",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q1_2025_25",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q1_2025_51",
+        "issuer": "VNM",
+        "spanning": true
+      },
+      {
+        "sample_id": "VNM_Q1_2025_54",
+        "issuer": "VNM",
+        "spanning": true
+      },
+      {
+        "sample_id": "VNM_Q1_2025_59",
+        "issuer": "VNM",
+        "spanning": true
+      },
+      {
+        "sample_id": "VNM_Q2_2023_2",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q2_2023_20",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q2_2023_27",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q2_2024_18",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q2_2024_35",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q2_2024_50",
+        "issuer": "VNM",
+        "spanning": true
+      },
+      {
+        "sample_id": "VNM_Q2_2024_61",
+        "issuer": "VNM",
+        "spanning": true
+      },
+      {
+        "sample_id": "VNM_Q2_2024_63",
+        "issuer": "VNM",
+        "spanning": true
+      },
+      {
+        "sample_id": "VNM_Q2_2025_15",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q2_2025_20",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q2_2025_29",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q2_2025_40",
+        "issuer": "VNM",
+        "spanning": true
+      },
+      {
+        "sample_id": "VNM_Q3_2023_18",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q3_2023_20",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q3_2023_23",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q3_2023_32",
+        "issuer": "VNM",
+        "spanning": true
+      },
+      {
+        "sample_id": "VNM_Q3_2023_36",
+        "issuer": "VNM",
+        "spanning": true
+      },
+      {
+        "sample_id": "VNM_Q3_2023_53",
+        "issuer": "VNM",
+        "spanning": true
+      },
+      {
+        "sample_id": "VNM_Q3_2023_62",
+        "issuer": "VNM",
+        "spanning": true
+      },
+      {
+        "sample_id": "VNM_Q3_2024_12",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q3_2024_16",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q3_2024_18",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q3_2024_19",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q3_2024_20",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q3_2024_31",
+        "issuer": "VNM",
+        "spanning": true
+      },
+      {
+        "sample_id": "VNM_Q3_2024_34",
+        "issuer": "VNM",
+        "spanning": true
+      },
+      {
+        "sample_id": "VNM_Q3_2024_44",
+        "issuer": "VNM",
+        "spanning": true
+      },
+      {
+        "sample_id": "VNM_Q4_2023_16",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q4_2023_23",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q4_2023_27",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q4_2023_32",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q4_2023_43",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q4_2023_47",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q4_2023_6",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q4_2023_9",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q4_2024_49",
+        "issuer": "VNM",
+        "spanning": true
+      },
+      {
+        "sample_id": "VNM_Q4_2024_51",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q4_2024_7",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_CN_2023_13",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_CN_2023_23",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_CN_2023_34",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_CN_2023_58",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_CN_2023_6",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_CN_2023_74",
+        "issuer": "VTB",
+        "spanning": true
+      },
+      {
+        "sample_id": "VTB_CN_2023_78",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_CN_2023_8",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_CN_2024_14",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_CN_2024_4",
+        "issuer": "VTB",
+        "spanning": true
+      },
+      {
+        "sample_id": "VTB_CN_2024_44",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_CN_2024_5",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_CN_2024_63",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_CN_2024_69",
+        "issuer": "VTB",
+        "spanning": true
+      },
+      {
+        "sample_id": "VTB_CN_2024_82",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q1_2024_27",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q1_2024_42",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q1_2024_43",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q1_2024_48",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q1_2024_83",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q1_2025_15",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q1_2025_30",
+        "issuer": "VTB",
+        "spanning": true
+      },
+      {
+        "sample_id": "VTB_Q1_2025_33",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q1_2025_40",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q1_2025_9",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q2_2023_19",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q2_2023_29",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q2_2023_35",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q2_2023_39",
+        "issuer": "VTB",
+        "spanning": true
+      },
+      {
+        "sample_id": "VTB_Q2_2023_5",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q2_2024_25",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q2_2024_31",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q2_2024_4",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q2_2024_55",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q2_2024_56",
+        "issuer": "VTB",
+        "spanning": true
+      },
+      {
+        "sample_id": "VTB_Q2_2025_20",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q2_2025_36",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q2_2025_42",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q2_2025_6",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q3_2023_30",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q3_2023_40",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q3_2024_31",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q3_2024_36",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q4_2023_44",
+        "issuer": "VTB",
+        "spanning": true
+      },
+      {
+        "sample_id": "VTB_Q4_2023_8",
+        "issuer": "VTB",
+        "spanning": true
+      }
+    ],
+    "final": [
+      {
+        "sample_id": "EVF_CN_2023_24",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_CN_2023_27",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_CN_2023_48",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_CN_2024_24",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_CN_2024_27",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_CN_2024_31",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_CN_2024_36",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_Q1_2023_59",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q1_2024_1",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_Q1_2024_17",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_Q1_2024_36",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q1_2024_56",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q1_2024_9",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q1_2025_40",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_Q2_2023_27",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_Q2_2023_35",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_Q2_2023_43",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_Q2_2023_48",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_Q2_2024_18",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_Q2_2025_40",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_Q2_2025_49",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_Q3_2023_20",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q3_2023_3",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q3_2023_48",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q3_2024_20",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q3_2024_30",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q3_2024_32",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q4_2023_0",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_Q4_2023_58",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q4_2024_19",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q4_2024_64",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "FPT_CN_2024_42",
+        "issuer": "FPT",
+        "spanning": false
+      },
+      {
+        "sample_id": "FPT_Q1_2024_27",
+        "issuer": "FPT",
+        "spanning": false
+      },
+      {
+        "sample_id": "FPT_Q1_2024_46",
+        "issuer": "FPT",
+        "spanning": true
+      },
+      {
+        "sample_id": "FPT_Q1_2025_32",
+        "issuer": "FPT",
+        "spanning": false
+      },
+      {
+        "sample_id": "FPT_Q2_2023_15",
+        "issuer": "FPT",
+        "spanning": false
+      },
+      {
+        "sample_id": "FPT_Q2_2023_18",
+        "issuer": "FPT",
+        "spanning": false
+      },
+      {
+        "sample_id": "FPT_Q2_2025_31",
+        "issuer": "FPT",
+        "spanning": true
+      },
+      {
+        "sample_id": "FPT_Q2_2025_66",
+        "issuer": "FPT",
+        "spanning": true
+      },
+      {
+        "sample_id": "FPT_Q3_2023_18",
+        "issuer": "FPT",
+        "spanning": false
+      },
+      {
+        "sample_id": "FPT_Q4_2023_14",
+        "issuer": "FPT",
+        "spanning": false
+      },
+      {
+        "sample_id": "FPT_Q4_2023_45",
+        "issuer": "FPT",
+        "spanning": true
+      },
+      {
+        "sample_id": "HAG_CN_2023_22",
+        "issuer": "HAG",
+        "spanning": true
+      },
+      {
+        "sample_id": "HAG_Q1_2023_22",
+        "issuer": "HAG",
+        "spanning": true
+      },
+      {
+        "sample_id": "HAG_Q1_2024_13",
+        "issuer": "HAG",
+        "spanning": true
+      },
+      {
+        "sample_id": "HAG_Q1_2024_24",
+        "issuer": "HAG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HAG_Q2_2024_27",
+        "issuer": "HAG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HAG_Q2_2025_13",
+        "issuer": "HAG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HAG_Q2_2025_2",
+        "issuer": "HAG",
+        "spanning": true
+      },
+      {
+        "sample_id": "HAG_Q2_2025_22",
+        "issuer": "HAG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HAG_Q2_2025_30",
+        "issuer": "HAG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HAG_Q2_2025_33",
+        "issuer": "HAG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HAG_Q3_2023_13",
+        "issuer": "HAG",
+        "spanning": true
+      },
+      {
+        "sample_id": "HAG_Q3_2025_1",
+        "issuer": "HAG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HAG_Q4_2024_21",
+        "issuer": "HAG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HAG_Q4_2024_32",
+        "issuer": "HAG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HAG_Q4_2024_51",
+        "issuer": "HAG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_CN_2023_10",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_CN_2023_13",
+        "issuer": "HPG",
+        "spanning": true
+      },
+      {
+        "sample_id": "HPG_CN_2023_28",
+        "issuer": "HPG",
+        "spanning": true
+      },
+      {
+        "sample_id": "HPG_CN_2023_32",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_CN_2023_33",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_CN_2023_55",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_CN_2024_23",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_CN_2024_34",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_Q1_2024_3",
+        "issuer": "HPG",
+        "spanning": true
+      },
+      {
+        "sample_id": "HPG_Q2_2024_23",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_Q2_2024_37",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_Q2_2024_53",
+        "issuer": "HPG",
+        "spanning": true
+      },
+      {
+        "sample_id": "HPG_Q3_2025_17",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_Q4_2023_15",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_Q4_2023_4",
+        "issuer": "HPG",
+        "spanning": true
+      },
+      {
+        "sample_id": "HPG_Q4_2024_9",
+        "issuer": "HPG",
+        "spanning": true
+      },
+      {
+        "sample_id": "MB_CN_2023_28",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_CN_2023_31",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_CN_2023_33",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_CN_2023_41",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_CN_2023_77",
+        "issuer": "MB",
+        "spanning": true
+      },
+      {
+        "sample_id": "MB_CN_2023_89",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_CN_2024_15",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_CN_2024_4",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_CN_2024_54",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_CN_2024_7",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q1_2023_59",
+        "issuer": "MB",
+        "spanning": true
+      },
+      {
+        "sample_id": "MB_Q1_2025_27",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q1_2025_49",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q2_2023_36",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q2_2023_63",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q2_2023_75",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q2_2023_86",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q2_2024_38",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q2_2024_63",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q2_2024_72",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q2_2024_74",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q2_2024_86",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q2_2025_20",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q3_2023_17",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q3_2023_49",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q3_2024_15",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q3_2024_16",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q3_2024_45",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q4_2023_24",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q4_2024_3",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q4_2024_8",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q4_2024_9",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_CN_2023_43",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_CN_2023_73",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_CN_2024_12",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_CN_2024_121",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_CN_2024_15",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q1_2023_22",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q1_2023_67",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q1_2025_35",
+        "issuer": "PVD",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVD_Q1_2025_79",
+        "issuer": "PVD",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVD_Q2_2023_102",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2023_63",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2023_90",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2024_111",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2024_126",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2024_14",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2024_57",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2024_73",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2024_8",
+        "issuer": "PVD",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVD_Q2_2025_111",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2025_69",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2025_71",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2025_80",
+        "issuer": "PVD",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVD_Q3_2023_41",
+        "issuer": "PVD",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVD_Q3_2023_71",
+        "issuer": "PVD",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVD_Q3_2024_22",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q3_2025_15",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q3_2025_34",
+        "issuer": "PVD",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVD_Q3_2025_48",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q3_2025_53",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q3_2025_58",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q4_2023_39",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q4_2024_10",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q4_2024_42",
+        "issuer": "PVD",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVD_Q4_2024_62",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_CN_2023_28",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_CN_2023_52",
+        "issuer": "PVS",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVS_CN_2024_102",
+        "issuer": "PVS",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVS_CN_2024_122",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_CN_2024_49",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_CN_2024_97",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q1_2023_5",
+        "issuer": "PVS",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVS_Q1_2025_12",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q1_2025_31",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q1_2025_53",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q1_2025_61",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q1_2025_71",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q2_2023_32",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q2_2023_33",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q2_2023_37",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q2_2024_27",
+        "issuer": "PVS",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVS_Q2_2024_42",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q2_2024_54",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q2_2025_133",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q2_2025_54",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q2_2025_65",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q2_2025_87",
+        "issuer": "PVS",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVS_Q2_2025_97",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q3_2023_11",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q3_2023_13",
+        "issuer": "PVS",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVS_Q3_2023_23",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q3_2023_34",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q3_2023_6",
+        "issuer": "PVS",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVS_Q3_2024_26",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q3_2024_37",
+        "issuer": "PVS",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVS_Q3_2025_47",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q3_2025_87",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q3_2025_91",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q4_2023_47",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q4_2024_10",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q4_2024_20",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q4_2024_24",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_CN_2023_17",
+        "issuer": "SSI",
+        "spanning": true
+      },
+      {
+        "sample_id": "SSI_CN_2023_35",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_CN_2023_41",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_CN_2023_53",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_CN_2024_64",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q1_2023_34",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q1_2023_46",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q1_2025_30",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q2_2023_10",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q2_2023_41",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q2_2023_63",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q2_2025_101",
+        "issuer": "SSI",
+        "spanning": true
+      },
+      {
+        "sample_id": "SSI_Q2_2025_120",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q2_2025_20",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q2_2025_21",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q2_2025_50",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q2_2025_7",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q3_2023_3",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q3_2025_15",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_CN_2023_21",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_CN_2023_42",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_CN_2023_54",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_CN_2023_58",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_CN_2023_64",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_CN_2023_93",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_CN_2024_3",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_CN_2024_34",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_CN_2024_87",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_CN_2024_94",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q1_2023_34",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q1_2023_43",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q1_2023_47",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q1_2024_4",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q2_2024_10",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q2_2024_11",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q2_2024_28",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q2_2024_46",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q2_2024_74",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q2_2025_30",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q2_2025_48",
+        "issuer": "TPB",
+        "spanning": true
+      },
+      {
+        "sample_id": "TPB_Q3_2023_21",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q4_2023_4",
+        "issuer": "TPB",
+        "spanning": true
+      },
+      {
+        "sample_id": "TPB_Q4_2024_28",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q4_2024_39",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_CN_2023_3",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_CN_2023_44",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_CN_2023_74",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_CN_2023_77",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_CN_2024_63",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q1_2024_46",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q1_2025_27",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q1_2025_32",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q2_2023_15",
+        "issuer": "VIN",
+        "spanning": true
+      },
+      {
+        "sample_id": "VIN_Q2_2023_27",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q2_2023_42",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q2_2024_12",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q2_2025_17",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q2_2025_32",
+        "issuer": "VIN",
+        "spanning": true
+      },
+      {
+        "sample_id": "VIN_Q3_2023_14",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q3_2023_20",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q3_2023_6",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q4_2023_15",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q4_2023_44",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q4_2023_46",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q4_2024_34",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_CN_2023_57",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_CN_2023_66",
+        "issuer": "VJC",
+        "spanning": true
+      },
+      {
+        "sample_id": "VJC_CN_2024_48",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_CN_2024_52",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_Q1_2024_53",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_Q1_2025_16",
+        "issuer": "VJC",
+        "spanning": true
+      },
+      {
+        "sample_id": "VJC_Q1_2025_25",
+        "issuer": "VJC",
+        "spanning": true
+      },
+      {
+        "sample_id": "VJC_Q2_2023_1",
+        "issuer": "VJC",
+        "spanning": true
+      },
+      {
+        "sample_id": "VJC_Q2_2023_20",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_Q2_2023_40",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_Q2_2024_26",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_Q2_2024_47",
+        "issuer": "VJC",
+        "spanning": true
+      },
+      {
+        "sample_id": "VJC_Q2_2024_71",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_Q2_2025_36",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_Q3_2023_46",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_Q4_2023_8",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_CN_2023_21",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_CN_2023_66",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_CN_2024_25",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q1_2023_16",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q1_2023_26",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q1_2023_49",
+        "issuer": "VNM",
+        "spanning": true
+      },
+      {
+        "sample_id": "VNM_Q1_2024_11",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q1_2025_17",
+        "issuer": "VNM",
+        "spanning": true
+      },
+      {
+        "sample_id": "VNM_Q1_2025_47",
+        "issuer": "VNM",
+        "spanning": true
+      },
+      {
+        "sample_id": "VNM_Q2_2023_1",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q2_2023_10",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q2_2024_2",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q2_2024_34",
+        "issuer": "VNM",
+        "spanning": true
+      },
+      {
+        "sample_id": "VNM_Q2_2025_11",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q2_2025_48",
+        "issuer": "VNM",
+        "spanning": true
+      },
+      {
+        "sample_id": "VNM_Q3_2023_24",
+        "issuer": "VNM",
+        "spanning": true
+      },
+      {
+        "sample_id": "VNM_Q3_2023_9",
+        "issuer": "VNM",
+        "spanning": true
+      },
+      {
+        "sample_id": "VNM_Q3_2024_21",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q4_2023_53",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q4_2024_27",
+        "issuer": "VNM",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_Q4_2024_41",
+        "issuer": "VNM",
+        "spanning": true
+      },
+      {
+        "sample_id": "VTB_CN_2023_16",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_CN_2023_89",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_CN_2024_11",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_CN_2024_25",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_CN_2024_40",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q1_2024_11",
+        "issuer": "VTB",
+        "spanning": true
+      },
+      {
+        "sample_id": "VTB_Q1_2024_33",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q1_2024_46",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q1_2024_51",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q1_2024_55",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q1_2024_90",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q2_2023_20",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q2_2023_25",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q2_2023_33",
+        "issuer": "VTB",
+        "spanning": true
+      },
+      {
+        "sample_id": "VTB_Q2_2023_4",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q2_2025_7",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q3_2023_15",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q3_2023_35",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q3_2023_4",
+        "issuer": "VTB",
+        "spanning": true
+      },
+      {
+        "sample_id": "VTB_Q4_2023_38",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q4_2024_27",
+        "issuer": "VTB",
+        "spanning": true
+      },
+      {
+        "sample_id": "VTB_Q4_2024_32",
+        "issuer": "VTB",
+        "spanning": false
+      }
+    ],
+    "reserve": [
+      {
+        "sample_id": "EVF_Q1_2023_5",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "EVF_Q1_2024_38",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_Q2_2023_0",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_Q2_2025_82",
+        "issuer": "EVF",
+        "spanning": false
+      },
+      {
+        "sample_id": "EVF_Q3_2023_67",
+        "issuer": "EVF",
+        "spanning": true
+      },
+      {
+        "sample_id": "FPT_Q2_2024_36",
+        "issuer": "FPT",
+        "spanning": true
+      },
+      {
+        "sample_id": "HPG_CN_2023_4",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_CN_2024_59",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "HPG_Q2_2025_3",
+        "issuer": "HPG",
+        "spanning": true
+      },
+      {
+        "sample_id": "HPG_Q3_2023_5",
+        "issuer": "HPG",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_CN_2023_22",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q1_2024_42",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q2_2024_32",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "MB_Q3_2023_20",
+        "issuer": "MB",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_CN_2023_102",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_CN_2023_55",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q1_2023_36",
+        "issuer": "PVD",
+        "spanning": true
+      },
+      {
+        "sample_id": "PVD_Q2_2025_109",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q2_2025_86",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVD_Q4_2023_62",
+        "issuer": "PVD",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_CN_2024_125",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "PVS_Q2_2025_139",
+        "issuer": "PVS",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_CN_2024_88",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q2_2023_37",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q2_2025_118",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "SSI_Q3_2023_49",
+        "issuer": "SSI",
+        "spanning": false
+      },
+      {
+        "sample_id": "TPB_Q2_2023_7",
+        "issuer": "TPB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VIN_Q1_2023_46",
+        "issuer": "VIN",
+        "spanning": false
+      },
+      {
+        "sample_id": "VJC_Q3_2023_47",
+        "issuer": "VJC",
+        "spanning": false
+      },
+      {
+        "sample_id": "VNM_CN_2023_60",
+        "issuer": "VNM",
+        "spanning": true
+      },
+      {
+        "sample_id": "VNM_Q1_2023_4",
+        "issuer": "VNM",
+        "spanning": true
+      },
+      {
+        "sample_id": "VTB_CN_2023_90",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_CN_2024_28",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q1_2023_32",
+        "issuer": "VTB",
+        "spanning": false
+      },
+      {
+        "sample_id": "VTB_Q2_2024_61",
+        "issuer": "VTB",
+        "spanning": true
+      }
+    ]
+  },
+  "calibration": [
+    {
+      "sample_id": "EVF_CN_2024_13",
+      "issuer": "EVF",
+      "spanning": false
+    },
+    {
+      "sample_id": "EVF_CN_2024_51",
+      "issuer": "EVF",
+      "spanning": false
+    },
+    {
+      "sample_id": "EVF_CN_2024_6",
+      "issuer": "EVF",
+      "spanning": false
+    },
+    {
+      "sample_id": "EVF_Q1_2024_54",
+      "issuer": "EVF",
+      "spanning": true
+    },
+    {
+      "sample_id": "FPT_CN_2023_37",
+      "issuer": "FPT",
+      "spanning": false
+    },
+    {
+      "sample_id": "FPT_CN_2023_51",
+      "issuer": "FPT",
+      "spanning": true
+    },
+    {
+      "sample_id": "FPT_Q3_2023_41",
+      "issuer": "FPT",
+      "spanning": true
+    },
+    {
+      "sample_id": "FPT_Q3_2023_6",
+      "issuer": "FPT",
+      "spanning": false
+    },
+    {
+      "sample_id": "FPT_Q3_2024_42",
+      "issuer": "FPT",
+      "spanning": true
+    },
+    {
+      "sample_id": "HAG_Q4_2023_3",
+      "issuer": "HAG",
+      "spanning": false
+    },
+    {
+      "sample_id": "HPG_CN_2024_49",
+      "issuer": "HPG",
+      "spanning": false
+    },
+    {
+      "sample_id": "MB_CN_2023_47",
+      "issuer": "MB",
+      "spanning": true
+    },
+    {
+      "sample_id": "MB_CN_2024_2",
+      "issuer": "MB",
+      "spanning": false
+    },
+    {
+      "sample_id": "MB_Q1_2024_11",
+      "issuer": "MB",
+      "spanning": false
+    },
+    {
+      "sample_id": "MB_Q1_2025_13",
+      "issuer": "MB",
+      "spanning": false
+    },
+    {
+      "sample_id": "MB_Q1_2025_33",
+      "issuer": "MB",
+      "spanning": false
+    },
+    {
+      "sample_id": "MB_Q4_2023_60",
+      "issuer": "MB",
+      "spanning": true
+    },
+    {
+      "sample_id": "PVD_Q1_2024_16",
+      "issuer": "PVD",
+      "spanning": false
+    },
+    {
+      "sample_id": "PVD_Q2_2023_35",
+      "issuer": "PVD",
+      "spanning": false
+    },
+    {
+      "sample_id": "PVD_Q2_2025_18",
+      "issuer": "PVD",
+      "spanning": false
+    },
+    {
+      "sample_id": "PVD_Q3_2023_45",
+      "issuer": "PVD",
+      "spanning": false
+    },
+    {
+      "sample_id": "PVS_CN_2024_70",
+      "issuer": "PVS",
+      "spanning": true
+    },
+    {
+      "sample_id": "PVS_Q1_2025_7",
+      "issuer": "PVS",
+      "spanning": true
+    },
+    {
+      "sample_id": "PVS_Q2_2024_21",
+      "issuer": "PVS",
+      "spanning": false
+    },
+    {
+      "sample_id": "PVS_Q3_2023_32",
+      "issuer": "PVS",
+      "spanning": false
+    },
+    {
+      "sample_id": "SSI_CN_2024_13",
+      "issuer": "SSI",
+      "spanning": false
+    },
+    {
+      "sample_id": "SSI_Q1_2023_13",
+      "issuer": "SSI",
+      "spanning": false
+    },
+    {
+      "sample_id": "SSI_Q1_2024_18",
+      "issuer": "SSI",
+      "spanning": false
+    },
+    {
+      "sample_id": "SSI_Q2_2023_28",
+      "issuer": "SSI",
+      "spanning": false
+    },
+    {
+      "sample_id": "SSI_Q2_2024_21",
+      "issuer": "SSI",
+      "spanning": true
+    },
+    {
+      "sample_id": "SSI_Q2_2025_130",
+      "issuer": "SSI",
+      "spanning": false
+    },
+    {
+      "sample_id": "SSI_Q3_2023_5",
+      "issuer": "SSI",
+      "spanning": false
+    },
+    {
+      "sample_id": "TPB_Q2_2023_54",
+      "issuer": "TPB",
+      "spanning": false
+    },
+    {
+      "sample_id": "TPB_Q2_2025_29",
+      "issuer": "TPB",
+      "spanning": false
+    },
+    {
+      "sample_id": "TPB_Q4_2023_5",
+      "issuer": "TPB",
+      "spanning": true
+    },
+    {
+      "sample_id": "VIN_Q1_2025_45",
+      "issuer": "VIN",
+      "spanning": false
+    },
+    {
+      "sample_id": "VIN_Q2_2025_33",
+      "issuer": "VIN",
+      "spanning": false
+    },
+    {
+      "sample_id": "VIN_Q2_2025_34",
+      "issuer": "VIN",
+      "spanning": true
+    },
+    {
+      "sample_id": "VIN_Q2_2025_6",
+      "issuer": "VIN",
+      "spanning": false
+    },
+    {
+      "sample_id": "VIN_Q3_2023_40",
+      "issuer": "VIN",
+      "spanning": false
+    },
+    {
+      "sample_id": "VIN_Q4_2023_48",
+      "issuer": "VIN",
+      "spanning": false
+    },
+    {
+      "sample_id": "VJC_CN_2023_48",
+      "issuer": "VJC",
+      "spanning": false
+    },
+    {
+      "sample_id": "VJC_Q3_2023_57",
+      "issuer": "VJC",
+      "spanning": false
+    },
+    {
+      "sample_id": "VNM_Q3_2023_60",
+      "issuer": "VNM",
+      "spanning": true
+    },
+    {
+      "sample_id": "VNM_Q4_2024_9",
+      "issuer": "VNM",
+      "spanning": false
+    },
+    {
+      "sample_id": "VTB_Q1_2024_19",
+      "issuer": "VTB",
+      "spanning": false
+    },
+    {
+      "sample_id": "VTB_Q2_2025_23",
+      "issuer": "VTB",
+      "spanning": false
+    },
+    {
+      "sample_id": "VTB_Q2_2025_41",
+      "issuer": "VTB",
+      "spanning": false
+    },
+    {
+      "sample_id": "VTB_Q3_2023_14",
+      "issuer": "VTB",
+      "spanning": false
+    },
+    {
+      "sample_id": "VTB_Q4_2023_37",
+      "issuer": "VTB",
+      "spanning": false
+    }
+  ]
+}
